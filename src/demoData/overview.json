@@ -1,0 +1,136 @@
+{
+    "type" : "overView",
+    "data" : {
+        "groups" : [
+            {
+                "type" : "analytics",
+                "title" : "Overview",
+                "items" : [
+                    {
+                        "icon" : "fa-shopping-bag",
+                        "iconColor" : "orange",
+                        "change" : "positive",
+                        "changeValue" : "+24%",
+                        "amount" : "$27,340,00",
+                        "label" : "Total Sales"
+                    },
+                    {
+                        "icon" : "fa-pie-chart",
+                        "iconColor" : "purple",
+                        "change" : "negative",
+                        "changeValue" : "-32%",
+                        "amount" : "$27,340,00",
+                        "label" : "Total Expenses"
+                    },
+                    {
+                        "icon" : "fa-users",
+                        "iconColor" : "green",
+                        "change" : "positive",
+                        "changeValue" : "+48",
+                        "amount" : "18,260.00",
+                        "label" : "Total Visitors"
+                    },
+                    {
+                        "icon" : "fa-shopping-cart",
+                        "iconColor" : "red",
+                        "change" : "negative",
+                        "changeValue" : "-12",
+                        "amount" : "11,340.00",
+                        "label" : "Total Orders"
+                    }
+                ]
+            },
+            {
+                "type" : "chart",
+                "year" : "2020",
+                "range" : ["0", "2k", "6k", "10k"],
+                "data" : [
+                    {
+                        "month" : "Jan",
+                        "value" : 10
+                    },
+                    {
+                        "month" : "Feb",
+                        "value" : 10
+                    },
+                    {
+                        "month" : "Mar",
+                        "value" : 15
+                    },
+                    {
+                        "month" : "Apr",
+                        "value" : 20
+                    },
+                    {
+                        "month" : "May",
+                        "value" : 12
+                    },
+                    {
+                        "month" : "Jun",
+                        "value" : 13
+                    },
+                    {
+                        "month" : "Jul",
+                        "value" : 10
+                    },
+                    {
+                        "month" : "Aug",
+                        "value" : 20
+                    },
+                    {
+                        "month" : "Sep",
+                        "value" : 15
+                    },
+                    {
+                        "month" : "Oct",
+                        "value" : 11
+                    },
+                    {
+                        "month" : "Nov",
+                        "value" : 10
+                    },
+                    {
+                        "month" : "Dec",
+                        "value" : 20
+                    }
+                ]
+            },
+            {
+                "type" : "products",
+                "label" : "Popular Products",
+                "products" : [
+                    {
+                        "photos" : "fa-shopping-cart",
+                        "name" : {
+                            "label" : "Hat",
+                            "id" : "#2834289000"
+                        },
+                        "date" : "Aug 12, 2020",
+                        "category" : "Fashion",
+                        "brand" : "Fashion",
+                        "price" : "$99.89",
+                        "status" : {
+                            "label" : "Available",
+                            "visitors" : "18k viewers"
+                        }
+                    },
+                    {
+                        "photos" : "fa-shopping-cart",
+                        "name" : {
+                            "label" : "Smartphone",
+                            "id" : "#2834289000"
+                        },
+                        "date" : "Aug 12, 2020",
+                        "category" : "Gaget",
+                        "brand" : "Fashion",
+                        "price" : "$99.89",
+                        "status" : {
+                            "label" : "Available",
+                            "visitors" : "18k viewers"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "type" : "menu",
+    "data" : {
+        "groups" : [
+            {
+                "type" : "UserData",
+                "label" : "Pulse",
+                "icon" : "https://iili.io/qgVXob.png"
+            },
+            {
+                "type" : "MenuOptions",
+                "title" : "Menu",
+                "options" : [
+                    {
+                        "label" : "Overview",
+                        "icon" : "fa-th-large"
+                    },
+                    {
+                        "label" : "Orders",
+                        "icon" : "fa-file-text"
+                    },
+                    {
+                        "label" : "Products",
+                        "icon" : "fa-shopping-bag"
+                    },
+                    {
+                        "label" : "Settings",
+                        "icon" : "fa-cog"
+                    }
+                ]
+            },
+            {
+                "type" : "MenuOptions",
+                "title" : "Business",
+                "options" : [
+                    {
+                        "label" : "Settings",
+                        "icon" : "fa-paper-plane"
+                    },
+                    {
+                        "label" : "Followers",
+                        "icon" : " fa-users"
+                    }
+                ]
+            },
+            {
+                "type" : "Copyright",
+                "year" : "2020",
+                "label" : "Platform for solution"
+            }
+        ]
+    }
+}

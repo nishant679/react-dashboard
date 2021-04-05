@@ -1,0 +1,137 @@
+.user-container{
+    // border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+    color: #352C6B;
+
+    .icon-container{
+        display: flex;
+        justify-content: space-between;
+
+        .icon{
+            border: 2px solid #EBEFF5;            
+            border-radius: 50% ;
+            padding: 1rem;
+        }
+    }
+
+    .profile-pic{
+        // border: 1px solid black;
+        // margin: 1.4rem auto;
+
+        img{
+            width: 50%;
+            margin-left: 25%;
+            // border: 1px solid black;
+        }
+    }
+    .label{
+        font-size: 1.2rem;
+        font-weight: 800;
+        margin: 0.5rem auto;
+        text-align: center;
+    }
+}
+
+//catalouge class
+.catalouge{
+    border: 2px solid #EBEFF5;
+    color: #352C6B;
+    width: 70%;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;    
+
+    .catalouge-item{
+        display: flex;
+        width: 50%;
+        // border: 1px solid black;
+        padding: 3px;
+        margin: auto;
+
+        .icon{
+            margin: auto 0;
+            background-color: #EBEFF5;
+            padding: 5px;
+            margin-left: 1rem;
+        }       
+    }
+    .border-right {
+        border-right: 2px solid #EBEFF5;
+    }
+}
+
+//reputation 
+.reputation{
+    border : 2px solid #EBEFF5;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem;
+
+    .icon{
+        color: #FE874E;
+        background-color: #FEF3EC;
+        padding: 5px;
+    }
+}
+
+
+
+
+//orders component
+.order-container{
+    border : 2px solid #EBEFF5;
+    width: 70%;
+    padding: 1rem;
+    margin: 0 auto;
+
+    .order{
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 0;
+
+        .order-info{
+            display: flex;
+
+            .icon{
+                margin: auto;
+                color: #F62946;
+                font-size: 1.2rem;
+            }
+        }
+
+        .cost{
+            font-size: 0.7rem;
+            margin: auto 0;
+            font-weight: 800;
+            color: #1CBD78;
+        }
+    }
+}
+
+//utility classes
+.text-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin-left: 1rem;
+
+    .label {
+        font-size: 0.6rem;
+        color: #8e8e95;
+    }
+}
+
+//title
+.title {
+    font-size: 1rem;
+    color: #352C6B;
+    width: 80%;
+    // padding: 1rem;
+    // border : 1px solid black;
+    font-weight: 800;
+    margin: 1rem auto;
+    margin-top: 2.4rem;
+}

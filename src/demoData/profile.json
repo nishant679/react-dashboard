@@ -1,0 +1,59 @@
+{
+    "type" : "profile",
+    "data" : {
+        "groups" : [
+            {
+                "type" : "userData",
+                "notification" : "fa-bell",
+                "edit" : "fa-pencil-square-o",
+                "profile_image" : "https://iili.io/qgrYs2.png",
+                "label" : "Pulsa"
+            },
+            {
+                "type" : "catalouge",
+                "products" : {
+                    "icon" : "fa-shopping-bag",
+                    "count" : "218",
+                    "label" : "products"
+                },
+                "followers" : {
+                    "icon" : "fa-users",
+                    "count" : "2,580",
+                    "label" : "followers"
+                }
+            },
+            {
+                "type" : "Reputation",
+                "title" : "Reputation",
+                "icon" : "fa-star",
+                "label" : "star",
+                "progress" : "85%"
+            },
+            {
+                "type" : "orders",
+                "label" : "Recent Orders",
+                "menu" : "see all",
+                "orders" : [
+                    {
+                        "icon" : " fa-shopping-cart",
+                        "label" : "Rmi",
+                        "time" : "2 Minutes Ago",
+                        "cost" : "+$80.00"
+                    },
+                    {
+                        "icon" : " fa-shopping-cart",
+                        "label" : "E1-421",
+                        "time" : "2 Minutes Ago",
+                        "cost" : "+$80.00"
+                    },
+                    {
+                        "icon" : " fa-shopping-cart",
+                        "label" : "N D3500",
+                        "time" : "2 Minutes Ago",
+                        "cost" : "+$80.00"
+                    }
+                ]
+            }
+        ]
+    }
+}
